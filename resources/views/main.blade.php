@@ -37,5 +37,6 @@
             @yield('content')
             @include('footer')
         </div>
+        <script src="{{ asset('cursor.js') }}"></script>
     </body>
 </html>
